@@ -70,8 +70,8 @@ module KeyCodes.KeyDown{
     export var Numpad8 = 104;
     export var Numpad9 = 105;
     export var Multiply = 106;
-    export var Add = 107;
-    export var Subtract = 109;
+    export var NumpadPlus = 107;
+    export var NumpadMinus = 109;
     export var DecimalPoint = 110;
     export var Divide = 111;
     export var F1 = 112;
@@ -116,8 +116,12 @@ module KeyCodes.KeyPress{
     export var Hash = 35;
     export var GraveAccent = 39;
     export var ForwardSlash = 32;
+    export var Asterisk = 42;
+    export var Plus = 43;
     export var Comma = 44;
+    export var Minus = 45;
     export var Period = 46;
+    export var ForwardSlash = 47;
     export var Zero = 48;
     export var One = 49;
     export var Two = 50;
@@ -131,6 +135,7 @@ module KeyCodes.KeyPress{
     export var Colon = 58;
     export var Semicolon = 59;
     export var LessThan = 60;
+    export var Equals = 61;
     export var GreaterThan = 62;
     export var QuestionMark = 63;
     export var At = 64;
