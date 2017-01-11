@@ -116,6 +116,7 @@ module KeyCodes.KeyPress{
     export var Hash = 35;
     export var GraveAccent = 39;
     export var ForwardSlash = 32;
+    export var DoubleQuote = 34;
     export var Asterisk = 42;
     export var Plus = 43;
     export var Comma = 44;
