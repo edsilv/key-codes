@@ -1,6 +1,6 @@
 {
   "name": "key-codes",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/key-codes.js",
   "scripts": {},
   "repository": {
@@ -15,18 +15,8 @@
   },
   "homepage": "https://github.com/edsilv/key-codes",
   "devDependencies": {
-    "chai": "^2.3.0",
-    "del": "^1.1.1",
     "gulp": "^3.8.11",
-    "gulp-bump": "^0.3.1",
-    "gulp-mocha": "^2.0.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-typescript": "^2.7.4",
-    "merge2": "^0.3.5",
-    "mocha": "^2.2.4",
-    "require-dir": "^0.3.0",
-    "run-sequence": "^1.1.0",
-    "yargs": "^3.10.0"
+    "gulp-tasks": "viewdir/gulp-tasks#v1.0.5"
   },
   "dependencies": {}
 }

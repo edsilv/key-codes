@@ -1,4 +1,5 @@
-declare module KeyCodes.KeyDown {
+// key-codes v0.0.5 https://github.com/edsilv/key-codes
+declare namespace KeyCodes.KeyDown {
     var Backspace: number;
     var Tab: number;
     var Enter: number;
@@ -108,7 +109,7 @@ declare module KeyCodes.KeyDown {
     var Quote: number;
     var CommandFF: number;
 }
-declare module KeyCodes.KeyPress {
+declare namespace KeyCodes.KeyPress {
     var Backspace: number;
     var Enter: number;
     var Spacebar: number;

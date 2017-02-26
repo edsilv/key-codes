@@ -1,4 +1,4 @@
-module KeyCodes.KeyDown{
+namespace KeyCodes.KeyDown{
     export var Backspace = 8;
     export var Tab = 9;
     export var Enter = 13;
@@ -109,7 +109,7 @@ module KeyCodes.KeyDown{
     export var CommandFF = 224
 }
 
-module KeyCodes.KeyPress{
+namespace KeyCodes.KeyPress{
     export var Backspace = 8;
     export var Enter = 13;
     export var Spacebar = 32;
