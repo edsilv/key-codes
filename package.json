@@ -1,6 +1,6 @@
 {
   "name": "key-codes",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "dist/key-codes.js",
   "scripts": {},
   "repository": {
@@ -15,6 +15,7 @@
   },
   "homepage": "https://github.com/edsilv/key-codes",
   "devDependencies": {
+    "@types/node": "^7.0.5",
     "gulp": "^3.8.11",
     "gulp-tasks": "viewdir/gulp-tasks#v1.0.5"
   },
