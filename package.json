@@ -2,13 +2,14 @@
   "name": "key-codes",
   "version": "0.0.6",
   "main": "dist/key-codes.js",
+  "types": "./dist/key-codes.d.ts",
   "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/edsilv/key-codes.git"
   },
   "keywords": [],
-  "author": "Edward Silverton <e.silverton@gmail.com> (http://edsilv.com)",
+  "author": "@edsilv",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/edsilv/key-codes/issues"
@@ -17,7 +18,7 @@
   "devDependencies": {
     "@types/node": "^7.0.5",
     "gulp": "^3.8.11",
-    "gulp-tasks": "viewdir/gulp-tasks#v1.0.5"
+    "gulp-tasks": "iiif-commons/gulp-tasks#v1.0.7"
   },
   "dependencies": {}
 }
