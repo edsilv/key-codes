@@ -1,4 +1,4 @@
-// key-codes v0.0.5 https://github.com/edsilv/key-codes
+// key-codes v0.0.6 https://github.com/edsilv/key-codes
 declare namespace KeyCodes.KeyDown {
     const Backspace: number;
     const Tab: number;
