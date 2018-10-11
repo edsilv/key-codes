@@ -1,9 +1,14 @@
 {
-  "name": "key-codes",
-  "version": "0.0.7",
-  "main": "dist/key-codes.js",
-  "types": "./dist/key-codes.d.ts",
-  "scripts": {},
+  "name": "@edsilv/key-codes",
+  "version": "0.0.8",
+  "main": "./dist/KeyCodes.js",
+  "types": "./dist/KeyCodes.d.ts",
+  "scripts": {
+    "clean": "npx rimraf ./dist",
+    "build-ts": "npx tsc",
+    "minify-js": "npx uglify-js ./dist/KeyCodes.js > ./dist/KeyCodes.min.js",
+    "build": "npm run clean && npm run build-ts && npm run minify-js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/edsilv/key-codes.git"
@@ -16,9 +21,12 @@
   },
   "homepage": "https://github.com/edsilv/key-codes",
   "devDependencies": {
-    "@types/node": "^7.0.5",
-    "gulp": "^3.8.11",
-    "gulp-tasks": "iiif-commons/gulp-tasks#v1.0.7"
+    "rimraf": "^2.6.2",
+    "serve": "^10.0.2",
+    "typescript": "^3.1.1",
+    "uglify-js": "^3.4.9"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@types/node": "^7.0.5"
+  }
 }
