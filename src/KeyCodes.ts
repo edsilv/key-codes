@@ -178,4 +178,4 @@ namespace KeyCodes.KeyPress {
     if (!g.KeyCodes) {
         g.KeyCodes = KeyCodes;
     }
-})(global);
+})(window);

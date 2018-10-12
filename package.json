@@ -1,6 +1,6 @@
 {
   "name": "@edsilv/key-codes",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "./dist/KeyCodes.js",
   "types": "./dist/KeyCodes.d.ts",
   "scripts": {
