@@ -1,4 +1,4 @@
-export declare enum KeyDown {
+export enum KeyDown {
     Backspace = 8,
     Tab = 9,
     Enter = 13,
@@ -108,7 +108,8 @@ export declare enum KeyDown {
     Quote = 222,
     CommandFF = 224
 }
-export declare enum KeyPress {
+
+export enum KeyPress {
     Backspace = 8,
     Enter = 13,
     Spacebar = 32,
@@ -170,5 +171,5 @@ export declare enum KeyPress {
     OpenCurlyBracket = 123,
     VerticalPipe = 124,
     CloseCurlyBracket = 125,
-    Tilde = 126
+    Tilde = 126,
 }

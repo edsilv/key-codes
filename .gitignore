@@ -1,5 +1,10 @@
-.idea
-.vscode
+dist-commonjs
+dist-esmodule
+dist-umd
+dist-var
+coverage
+docs
+npm-debug.log
 node_modules
-examples
-dist
+debug.log
+types
