@@ -1,6 +1,4 @@
-.*
-**/tsconfig.json
-**/webpack.config.js
-
+.idea
 node_modules
 src
+tasks
