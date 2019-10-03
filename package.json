@@ -1,7 +1,8 @@
 {
   "name": "@edsilv/key-codes",
-  "version": "0.1.1",
-  "main": "./dist-esmodule/index.js",
+  "version": "1.0.0",
+  "main": "./dist-umd/keycodes.js",
+  "module": "./dist-esmodule/index.js",
   "types": "./types/index.d.ts",
   "scripts": {
     "clean": "rimraf -rf dist-umd dist-commonjs dist-esmodule dist-var types",
